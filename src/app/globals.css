@@ -154,9 +154,9 @@ button {
 .square-button {
   aspect-ratio: 1;
   width: 100%;
-  border: 1px solid rgba(29, 42, 47, 0.12);
+  border: 1px solid rgba(29, 42, 47, 0.22);
   border-radius: 24px;
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(250, 246, 238, 0.95);
   color: var(--foreground);
   display: grid;
   place-items: center;
@@ -171,8 +171,8 @@ button {
 
 .square-button:hover:not(:disabled) {
   transform: translateY(-2px);
-  border-color: rgba(29, 42, 47, 0.22);
-  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(29, 42, 47, 0.35);
+  background: rgba(255, 255, 255, 0.98);
 }
 
 .square-button:focus-visible,
