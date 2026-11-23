@@ -13,3 +13,13 @@ export type GameStatus =
   | { kind: "in_progress"; nextPlayer: Player }
   | { kind: "won"; winner: Player; line: [number, number, number] }
   | { kind: "draw" };
+
+export interface PlayerScore {
+  wins: number;
+  losses: number;
+}
+
+export interface ScoreState {
+  X: PlayerScore;
+  O: PlayerScore;
+}
